@@ -7,3 +7,7 @@ function sumar (){
 }
 // Ingrese al repositorio
 // nuevo ingreso
+function  restar(){
+
+    return 12-6;
+}
