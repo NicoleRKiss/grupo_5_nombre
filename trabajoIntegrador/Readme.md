@@ -56,6 +56,23 @@ Nuestros cursos están diseñados para acompañar en el  desarrollo profesional 
 Acompañamos a cada alumno en el sueño de desarrollar y potenciar sus skills. Aportando desde el inicio, la práctica constante y compartiendo casos reales orientados a vivenciar cada experiencia desde el inicio de cada cursada.
 Nuestra plataforma está diseñada para que el alumno pueda contar con toda la información necesaria sobre las herramientas que van utilizar antes de tomar el curso elegido.
 
+NOSOTROS
+
+Nombre: Oscar Baez.
+Edad: 50 años
+Es mi primera vez como programador. Mi experiencia en los últimos 20 años fue como cliente, gestionando implementación de aplicaciones para el área de Recursos Humanos en una multinacional.
+Mi experiencia como cliente me llevó a redefinir mi carrera, haciendo este curso para darle valor agregado y ser yo mismo quien siga desarrollando herramientas para el área de HR. Siendo que es un área todavía muy analógica.
+Mis pasiones son el fútbol y el running. Soy muy familiero y me gusta disfrutar de los hobbies de mis hijos, la música y la danza.
+
+Nombre: Nicole Rodriguez Kiss
+Edad: 21 años
+Es mi primer intento en la programación, mi mejor amigo se dedica a programar juegos y siempre me interesó qué hacia y cómo. Me interesa mucho la salida laboral y en futuro me gustaría poder aprender a programar apps.
+Soy community manager y diseñadora gráfica, me gusta mucho utilizar el paquete de Adobe.
+
+Nombre: Eluney Jerónimo Iza
+Edad: 20 años.
+Mi primer relación con la programación fue cuando cursaba la carrera de Diseño multimedial en Escuela Da vinci, donde vimos html y css. Hoy en día estoy arrancando la carrera de analista de sistemas en la misma, estoy viendo java y otra vez html y css. Lo que busco con el curso de Full Stack es poder salir al mercado laboral lo más rapido posible, por eso además de cursar la carrera decidí hacer este curso.
+Elegí Digital House porqué yo ya había hecho el curso de Marketing Digital el año pasado y la experiencia que tuve fue más que destacable, por eso vuelvo a elegirlos.
 
 REFERENCIAS
 Los links a continuación representan las referencias para la creación de nuestra propia página web. De ellas sacamos ideas para nuestra estética, colorimetría, estilo de home, log in y formulario de registro. También tuvimos en cuenta como presentan las categorias y subcategorias de productos.
