@@ -22,32 +22,32 @@ Marketing Digital
     1.6 Programa Ejecutivo de Marketing Online
     1.7 Curso de e-Commerce
     1.8 Curso de Marketing de Contenidos
-    1.9 Curso de Mercado Libre: Como aumentar las ventas
+    1.9 Curso de MercadoLibre: Como aumentar las ventas
 
 Gestion & Management
 	2.1 Curso de responsabilidad social, empresarial y sustentabilidad
 	2.2 Curso de Control de Gestión y Tablero de comando
-	2.3 Curso de Gestión Deportiva
+	2.3 Curso de Gestión y Gerenciamiento de Entidades Deportiva
 	2.4 Curso de Teletrabajo. Optimización de tiempos y tareas en el trabajo.
 	2.5 Curso de Gestión de Pequeñas, Medianas Empresas
 	2.6 Curso de Planificación Estratégica
-	2.7 Curso de Gestión Gastronómica.
+	2.7 Curso de Gestión Gastronómica
     2.8 Curso de Control Financiero - Gestión Económico Financiero
     2.9 Curso Integral para Empresas Familiares
     2.10 Curso Ejecutivo de Control de Gestión, Presupuestos y Costos
 
 Comunicación Efectiva Global
 	3.1 Curso de Negocios - Programa Integral (ING / POR / ITA / FRA)
-        3.2 Curso Economico: Vocabulario Economico, Bancario, Contable, de Finanzas y Tributos (ING / POR / ITA / FRA)
+    3.2 Curso Economico: Vocabulario Economico, Bancario, Contable, de Finanzas y Tributos (ING / POR / ITA / FRA)
     3.3 Curso Técnico, Tecnológico y de Sistemas (ING / POR)
     3.4 Curso de Negocios I: Entrevistas laborales, redacción de CV y cartas de presentación  (ING / POR / ITA / FRA)
     3.5 Curso de Negocios II : Redacción de correos electrónicos y cómo mantener conversaciones telefónicas eficaces (ING / POR / ITA / FRA)
     3.6 Curso de Negocios III : Vocabulario para presentaciones cotidianas y presentaciones con información visual  (ING / POR / ITA / FRA)
-    3.6 Curso de Reuniones : Lenguaje de reuniones y vocabulario eficaz para las negociaciones. (ING / POR / ITA / FRA)
-    3.7 Curso Social : Uso del idioma en situaciones sociales para generar vínculos profesionales y de negocios  (ING / POR / ITA / FRA)
-    3.8 Curso de Redacción : De informes y propuestas (ING / POR)
-    3.9 Curso de Negocios IV : Vocabulario de Viajes de Negocios (ING / POR)
-    3.10 Curso de Negocios V: Vocabulario para Atención al Cliente (ING / POR / ITA / FRA)
+    3.7 Curso de Reuniones (ING / POR / ITA / FRA)
+    3.8 Curso Social (ING / POR / ITA / FRA)
+    3.9 Curso de Redacción : De informes y propuestas (ING / POR)
+    3.10 Curso de Negocios IV : Vocabulario de Viajes de Negocios (ING / POR)
+    3.11 Curso de Negocios V: Vocabulario para Atención al Cliente (ING / POR / ITA / FRA)
 
 
 PUBLICO OBJETIVO
@@ -87,4 +87,9 @@ https://www.pluralsight.com/
 https://www.skillshare.com/ 
 https://www.tesla.com 
 https://www.apple.com 
+
+
+FUNCIONAMIENTO DE LA PAGINA (orden)
+Los wireframes tienen un numero adentante de cada uno, la idea es que esos son los pasos que recorre un usuario. Inicialmente estan en 1.HomePage en la pagina web, selecciona una categorio o un producto, lo cual lo lleva a las categorias (2.CategoriasDeProducto) donde estaán todos los productos con un poco de info y luego selecciona un producto especifico que nos lleva a 3.DetalleDeProducto.
+A partir de aca hay dos caminos, el usuario selecciona lo que quiere comprar y tiene que registrarse o logearse, por ende tenemos 4.Login o 5.FormularioDeRegristro, el 6.FormularioDeRegristro2 nos parecio copado que se le dé la bienvendia a cada nuevo usuario con esa vista. Por último estan 7.CarritoCompleto y 8.CarritoVacio, a los cuales se pueede ingresar sin haberse registrado pero para finalizar la compra si es obligatorio hacer login.
 
