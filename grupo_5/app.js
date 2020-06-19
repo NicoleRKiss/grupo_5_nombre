@@ -10,7 +10,8 @@ var registerRouter = require('./routes/register');
 var ingresoRouter = require('./routes/ingreso');
 var loginRouter = require('./routes/login');
 var productRouter = require('./routes/product');
-
+var carritoRouter = require('./routes/carrito');
+var categoriaRouter = require('./routes/categoria');
 var app = express();
 
 // view engine setup
@@ -29,7 +30,8 @@ app.use('/register', registerRouter);
 app.use('/register/ingreso', ingresoRouter);
 app.use('/login', loginRouter);
 app.use('/product', productRouter);
-
+app.use('/carrito',carritoRouter);
+app.use('/categoria',categoriaRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
