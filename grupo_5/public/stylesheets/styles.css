@@ -9,53 +9,25 @@ h1 {
     text-align: center;
     font-size: 25px;
     color: rgb(134, 134, 134);
+    border-bottom: 1px solid rgba(211, 210, 210, 0.87);
 }
 .register {
-    flex-direction: column;
     background-color: rgb(233, 235, 234);
     font-size: 12px;
     text-align: center;
-    border-top: 200px;
-    margin: 20px 480px 60px 480px;
     border-radius: 20px;
     border: 1px solid rgba(211, 210, 210, 0.87);
+    box-sizing: border-box;
+    height: 550px;
+    width: 400px;   
 
-}
-
-.creacuenta{
-    background-color: rgb(37, 119, 212);
-    font-size: 12px;
-    text-align: center;
-    border-radius: 20px;
-}
-p {
-    color: #ffff;
-    font-size: 16px;
-    width: 660px;
-}
-.menu{
-    font-size: 16px;
-    width: 1080px;
-    
-}
-.antePie{
-    color:  rgba(136, 132, 132, 0.877);
-    font-family: sans-serif;
-    font-size: 10px;
-    width: 300px;  
-}
-
-.pie{
-    color:  rgba(136, 132, 132, 0.877);
-    font-family: sans-serif;
-    font-size: 12px;
-    width:300px;
 }
 .minimo{
     color:  rgb(134, 134, 134);
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 8px;
     width: 300px;
+    text-align: center;
 }
 .usando{
     color:  rgba(136, 132, 132, 0.877);
@@ -63,6 +35,77 @@ p {
     font-size: 16px;
     width: 300px;
 }
+.creacuenta{
+    background-color: rgb(37, 119, 212);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 1px solid rgba(211, 210, 210, 0.87);
+}
+ .antePieRegistro{
+    color:  rgb(109, 107, 107);
+    font-family: sans-serif;
+    font-size: 8px;
+    width: 300px;
+    border-bottom: 1px solid rgba(211, 210, 210, 0.87);
+}
+
+.pieRegistro{
+    color:  rgb(134, 134, 134);
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 370px;
+    
+}
+p {
+    color: #ffff;
+    font-size: 16px;
+    width: 660px;
+}
+.Ingresa {
+    background-image: url("../images/mujer-registro-2.png");
+    background-size:cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 110px 0px 225px 0px;
+}
+
+.logo{
+    margin-top: 0px;
+}
+.menu{
+    font-size: 16px;
+    width: 1080px;
+    
+}
+.welcome{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #ffff;
+    align-self: flex-start;
+    flex-grow: initial;
+
+}
+
+.antepie{
+    color:  rgba(250, 246, 246, 0.877);
+    font-family: sans-serif;
+    font-size: 25px;
+    padding:4px;
+    line-height: 0.5;
+}
+.pie{
+    background-color:  rgba(39, 206, 236, 0.726);
+    font-family: sans-serif;
+    font-size: 25px;
+    width:200px;
+    border-radius: 50px;
+    border: 0px solid;
+    
+}
+
 
 .login .form-input{
     margin: 40px 10px 5px 48px;
@@ -70,9 +113,18 @@ p {
     border: 1px solid rgba(211, 210, 210, 0.87);
 }
 .form-input{
-    color: (136, 132, 132, 0.877);
+    color: rgb(136, 132, 132, 0.877);
     font-size: 12px;
     text-align: start;
+    margin: 20px 48px 10px 48px;
+    border-radius: 20px;
+    border-style: none;
+}
+.form-Cuenta{
+    color: rgba(252, 249, 249, 0.877);
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(37, 119, 212);
     margin: 20px 48px 10px 48px;
     border-radius: 20px;
     border-style: none;
@@ -85,24 +137,11 @@ p {
  
 }
 
-.encabezado{
-    padding: 30px;
-    font-size: 25px;
-
-}
 .body2{
     background: rgb(67, 53, 187)
 }
-.Ingreso {
-    background-image: url("../images/mujer-registro-2.png");
-    background-size:cover;
-    padding: 0px 0px 225px 0px;
-}
 
-.welcome{
-    font-size: 12px;
 
-}
 .body3 {
     flex-wrap: wrap;
     flex-direction: column;
@@ -121,10 +160,13 @@ p {
     margin: 0px 0px 90px 5px;
     text-align: center;
     display: block;
+    box-sizing: border-box;
+    height: 288px;
+    width: 670px;
 
 }
 .olvide{
-    color:  rgba(136, 132, 132, 0.877);
+    color:  rgb(37, 119,212);
     font-family: sans-serif;
     font-size: 12px;
     width: 680px;
@@ -140,9 +182,9 @@ p {
     
 }
 .registrate{
-    color:  rgba(136, 132, 132, 0.877);
+    color:  rgb(37, 119, 212);
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     width: 770px;
 }
 a {
