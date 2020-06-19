@@ -1,0 +1,291 @@
+.body1{
+    background-image: url("../images/fondo-registro-1.png");
+    background-size:cover;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(134, 134, 134);
+}
+.register {
+    flex-direction: column;
+    background-color: rgb(233, 235, 234);
+    font-size: 12px;
+    text-align: center;
+    border-top: 200px;
+    margin: 20px 480px 60px 480px;
+    border-radius: 20px;
+    border: 1px solid rgba(211, 210, 210, 0.87);
+
+}
+
+.creacuenta{
+    background-color: rgb(37, 119, 212);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+}
+p {
+    color: #ffff;
+    font-size: 16px;
+    width: 660px;
+}
+.menu{
+    font-size: 16px;
+    width: 1080px;
+    
+}
+.antePie{
+    color:  rgba(136, 132, 132, 0.877);
+    font-family: sans-serif;
+    font-size: 10px;
+    width: 300px;  
+}
+
+.pie{
+    color:  rgba(136, 132, 132, 0.877);
+    font-family: sans-serif;
+    font-size: 12px;
+    width:300px;
+}
+.minimo{
+    color:  rgb(134, 134, 134);
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 300px;
+}
+.usando{
+    color:  rgba(136, 132, 132, 0.877);
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 300px;
+}
+
+.login .form-input{
+    margin: 40px 10px 5px 48px;
+    border-radius: 5px;
+    border: 1px solid rgba(211, 210, 210, 0.87);
+}
+.form-input{
+    color: (136, 132, 132, 0.877);
+    font-size: 12px;
+    text-align: start;
+    margin: 20px 48px 10px 48px;
+    border-radius: 20px;
+    border-style: none;
+}
+.buy-now-button{
+    color:white;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-style: none;
+ 
+}
+
+.encabezado{
+    padding: 30px;
+    font-size: 25px;
+
+}
+.body2{
+    background: rgb(67, 53, 187)
+}
+.Ingreso {
+    background-image: url("../images/mujer-registro-2.png");
+    background-size:cover;
+    padding: 0px 0px 225px 0px;
+}
+
+.welcome{
+    font-size: 12px;
+
+}
+.body3 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(../images/fondo-log-in.png);
+    font-size: 12px;
+    text-align: center;
+    margin: 159px 444px 73px 334px;
+    
+
+}
+.login{
+    background-color: rgb(202, 204, 206);
+    border-radius: 20px 20px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin: 0px 0px 90px 5px;
+    text-align: center;
+    display: block;
+
+}
+.olvide{
+    color:  rgba(136, 132, 132, 0.877);
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 680px;
+}
+.login2  {
+    background-color: rgb(37, 119,212);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 46px 178px 10px 58px;
+    border-radius: 20px;
+    text-decoration-color: none;
+    
+}
+.registrate{
+    color:  rgba(136, 132, 132, 0.877);
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 770px;
+}
+a {
+    
+    color:white;
+    text-decoration: none;
+    
+}
+
+.Ingreso {
+    background-size:cover;
+    padding: 0px 0px 225px 0px;
+}
+.encabezado{
+    background-color: rgba(174, 182, 191, 0.3 );
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+}
+
+
+header{
+    display:flex;
+    font-size: 15px;
+    text-align: end;
+}
+
+.info{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.producto{
+    background: rgb(67, 53, 187);
+    
+}
+
+.imagen1{
+    background: rgb(67, 53, 187);
+    padding: 15px;
+}
+.dataproduct{
+    margin: 10px;
+    text-align: end;
+    
+}
+H2{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: start;
+    border-bottom: 2px solid white;
+    width:655px;   
+}
+H3{
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;  
+    font-size: 16px; 
+    width: 655px;
+}
+.caja1  {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    column-count: 2;
+}
+
+.modalidad{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(67, 53, 187);
+    color:white;
+    background-color: none;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-right: 750px;
+    border: solid;
+    width:655px; 
+}
+.planEstudio p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(67, 53, 187);
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 750px;
+
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(8, 161, 207);
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+.container2{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(119, 123, 124);
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.cursosRel {
+    background-color:  rgb(8, 161, 207);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height:80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fixed {
+    background-color:  rgb(240, 242, 243);
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    position:fixed;
+    text-align: right;
+    text-align:end;
+    margin-right: 750px;
+    width:400px; 
+    height:260px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+    }
+p .star{
+    background-color:  rgb(8, 161, 207);
+    font-size: 15px;
+    text-align: end;
+    width: 380px;
+}
+
+.Footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: khaki;
+}
+

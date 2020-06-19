@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body class= "body1">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+
+        <link rel = "stylesheet" href = "../stylesheets/styles.css">
+        
+    </head>
+
+
+<form action="register" method="POST">
+    
+    <div class="register">
+        <h1>Crear Cuenta</h1>
+        <div>
+            <label for="name" class="form-label"></label>
+            <input type="text" id="name" name="name" placeholder="Ej: Juan" class="form-input" value= "Nombre">
+        </div>
+        <div>
+            <label for="name" class="form-label"></label>
+            <input type="text" id="name" name="price" placeholder="Ej: Perez" class="form-input" value= "Apellido">
+        </div>
+        <div>
+            <label for="Email" class="form-label"></label>
+            <input type="email" id="Email" name="Email" placeholder="Ej: @gmail.com" class="form-input" value="Email">
+        </div>
+        <div>
+            <label for="password" class="form-label"></label>
+            <input type="text" id="password" name="password" placeholder="Ej:1234" class="form-input" value="Contraseña">
+        </div>
+        <div>
+            <label for="password" class="form-label"></label>
+            <input type="text" id="password" name="retypePassword" placeholder="Ej:****" class="form-input" Value="Repetir Contraseña">
+        </div>
+        <p class="minimo">Mínimo 8 caracteres, una letra y un número.</p>
+        <a class="usando">O USANDO</a>
+        <div>
+        <input type="text" id="discount" name="discount" placeholder="Ej: 15" class="form-input"value="REGISTRATE CON GMAIL ">  
+    </div>
+
+        <input type="text" id="" name="facebook" placeholder="Ej: 15" class="form-input"value="REGISTRATE CON FACEBOOK ">  
+             
+        <div class="creacuenta">
+            <button type="submit" class=""><a href ="../register.ejs">Crear Cuenta</a></button>
+            
+        </div>
+        <article class="antePie">
+        <p class="antePie">Al crear esta cuenta usted acepta nuestras Políticas de Privacidad y Términos del servicio</p> 
+        </article>
+        <article class="pie">
+        <p class="pie">SI YA TENES UNA CUENTA HACE CLICK ACÁ</p>
+    </article>
+    </div>
+</form>
+
+</body>
+</html>
