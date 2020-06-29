@@ -1,8 +1,16 @@
 .body1{
     background-image: url("../images/fondo-registro-1.png");
     background-size:cover;
+    margin-top:50px;
+    margin-bottom: 25px;
 }
-
+.disclaimer{
+    background-color: #3CB9E2;
+    margin-top: 0px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -13,21 +21,24 @@ h1 {
 }
 .register {
     background-color: rgb(233, 235, 234);
-    font-size: 12px;
+    font-size: 30px;
     text-align: center;
     border-radius: 20px;
     border: 1px solid rgba(211, 210, 210, 0.87);
     box-sizing: border-box;
-    height: 550px;
-    width: 400px;   
+    height: 730px;
+    width: 600px;   
+    margin: auto;
+
 
 }
 .minimo{
     color:  rgb(134, 134, 134);
     font-family: sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     width: 300px;
     text-align: center;
+    margin: auto;
 }
 .usando{
     color:  rgba(136, 132, 132, 0.877);
@@ -45,9 +56,10 @@ h1 {
  .antePieRegistro{
     color:  rgb(109, 107, 107);
     font-family: sans-serif;
-    font-size: 8px;
+    font-size: 10px;
     width: 300px;
     border-bottom: 1px solid rgba(211, 210, 210, 0.87);
+    margin:auto;
 }
 
 .pieRegistro{
@@ -55,12 +67,14 @@ h1 {
     font-family: sans-serif;
     font-size: 12px;
     width: 370px;
+    margin:auto;
     
 }
 p {
     color: #ffff;
     font-size: 16px;
     width: 660px;
+    margin: auto;
 }
 .Ingresa {
     background-image: url("../images/mujer-registro-2.png");
@@ -69,11 +83,12 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    padding: 110px 0px 225px 0px;
+    padding: 150px 0px 225px 0px;
 }
 
 .logo{
-    margin-top: 0px;
+    width:10%;
+    height: auto; 
 }
 .menu{
     font-size: 16px;
@@ -82,10 +97,13 @@ p {
 }
 .welcome{
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 55px;
     color: #ffff;
-    align-self: flex-start;
-    flex-grow: initial;
+    padding: 20px;
+    width: 510px;
+    height: 150px;
+
+    
 
 }
 
@@ -95,18 +113,22 @@ p {
     font-size: 25px;
     padding:4px;
     line-height: 0.5;
+    margin: initial;
+    line-height: 1.2;
+    padding: 0px 15px 20px 25px;
 }
 .pie{
     background-color:  rgba(39, 206, 236, 0.726);
     font-family: sans-serif;
     font-size: 25px;
     width:200px;
-    border-radius: 50px;
+    border-radius: 10px;
     border: 0px solid;
+    margin: initial;
+    padding: 0px 15px 20px 25px;
+    vertical-align: middle;
     
 }
-
-
 .login .form-input{
     margin: 40px 10px 5px 48px;
     border-radius: 5px;
@@ -116,15 +138,37 @@ p {
     color: rgb(136, 132, 132, 0.877);
     font-size: 12px;
     text-align: start;
-    margin: 20px 48px 10px 48px;
+    margin: 10px 90px 20px 48px;
     border-radius: 20px;
     border-style: none;
+    padding: 1px 150px 20px 10px;
+
+}
+.registrarcon{
+    color: rgb(136, 132, 132, 0.877);
+    font-size: 12px;
+    text-align: start;
+    margin: 10px 90px 20px 48px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 1px 150px 20px 10px;
+    width:160px;
+
 }
 .form-Cuenta{
     color: rgba(252, 249, 249, 0.877);
     font-size: 12px;
     text-align: center;
     background-color: rgb(37, 119, 212);
+    margin: 10px 90px 20px 48px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 1px 220px 15px 10px;
+}
+.form-relac{
+    color: rgb(136, 132, 132, 0.877);
+    font-size: 12px;
+    text-align: end;
     margin: 20px 48px 10px 48px;
     border-radius: 20px;
     border-style: none;
@@ -138,7 +182,8 @@ p {
 }
 
 .body2{
-    background: rgb(67, 53, 187)
+    background: rgb(67, 53, 187);
+    margin: auto;
 }
 
 
@@ -146,6 +191,7 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     background-image: url(../images/fondo-log-in.png);
+    background-size:cover;
     font-size: 12px;
     text-align: center;
     margin: 159px 444px 73px 334px;
@@ -156,13 +202,10 @@ p {
     background-color: rgb(202, 204, 206);
     border-radius: 20px 20px 0px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    margin: 0px 0px 90px 5px;
-    text-align: center;
-    display: block;
     box-sizing: border-box;
-    height: 288px;
-    width: 670px;
+    height: 430px;
+    width: 760px;   
+    margin: 159px 444px 73px 334px;
 
 }
 .olvide{
@@ -188,10 +231,9 @@ p {
     width: 770px;
 }
 a {
-    
     color:white;
     text-decoration: none;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Ingreso {
@@ -212,6 +254,8 @@ header{
 }
 
 .info{
+  font-family: Arial;
+  color:white;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -239,8 +283,7 @@ H2{
 }
 H3{
     color:white ;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: start;  
+    font-family: Arial, Helvetica, sans-serif;  
     font-size: 16px; 
     width: 655px;
 }
@@ -272,8 +315,7 @@ H3{
     margin-right: 750px;
 
 }
-
-.container{
+.row1{
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(8, 161, 207);
     display:flex;
@@ -281,7 +323,15 @@ H3{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-
+    text-decoration: none;
+    list-style-type: none;
+}
+.row2{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(8, 161, 207);
+    margin:auto;
+    width: auto;
+    text-align: center;
 }
 .container2{
     font-family: Arial, Helvetica, sans-serif;
@@ -304,27 +354,49 @@ H3{
     margin-bottom: 10px;
     text-align: center;
 }
+.cursosRel {
+    background-color:  rgb(8, 161, 207);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height:80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 .fixed {
-    background-color:  rgb(240, 242, 243);
-    color:black;
+    background-color:  rgb(198, 215, 221);
+
     font-family: Arial, Helvetica, sans-serif;
     position:fixed;
-    text-align: right;
-    text-align:end;
-    margin-right: 750px;
-    width:400px; 
-    height:260px;
-    margin-bottom: 10px;
+    text-align:start;
     border-radius: 20px;
-    
-    }
+    right: 10%;
+    top:10%;
+}    
+.font{
+    color: rgb(43, 42, 42);
+    font-size: 16px;
+    width: 660px;
+}
+.far fa-star{
+    right: 10%;
+}
+
+
+
 p .star{
     background-color:  rgb(8, 161, 207);
     font-size: 15px;
     text-align: end;
     width: 380px;
 }
-
+.infofooter{
+    color:white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+  }
 .Footer{
     display: flex;
     flex-wrap: wrap;
