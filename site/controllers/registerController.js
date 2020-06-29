@@ -23,7 +23,10 @@ const registerController ={
            fs.writeFileSync(path.join(__dirname,'..', 'data', 'users.json'), users);
 
            return res.redirect('login');
-}
+},
+    processRegister : function (req, res){
+        
+    }
 }
 
 module.exports = registerController;

@@ -30,8 +30,11 @@ const loginController ={
                     {msg: 'Credencias invalidas'}
                 ]});
             }
+
+            // buscar al usuario por email
+
             req.session.usuarioLogueado = usuarioALoguearse;
-            res.render('success');
+            res.redirect('/'); // lo llevamos al home luego de comprobar quien es el loko.
 
         }else{
             return res.render ('login', {errors: errors.errors});
